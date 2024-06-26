@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Cursor from "./Cursor";
 
 export {
+  Cursor,
   Navbar,
   Billing,
   CardDeal,
@@ -21,5 +22,4 @@ export {
   Footer,
   Testimonials,
   Hero,
-  Cursor,
 };
