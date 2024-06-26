@@ -10,6 +10,7 @@ import {
   Stats,
   Testimonials,
   Hero,
+  Cursor,
 } from "./components";
 
 const App = () => (
@@ -38,6 +39,7 @@ const App = () => (
         <Footer />
       </div>
     </div>
+    <Cursor  />
   </div>
 );
 

@@ -18,6 +18,7 @@
   scroll-behavior: smooth;
 }
 
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -141,4 +142,16 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.cursor {
+  background-color: #5ce1e6;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10000;
 }
